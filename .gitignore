@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+data/api_keys.json
+data/live_jobs.json
+*.db
+.env
