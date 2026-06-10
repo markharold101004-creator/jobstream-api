@@ -7,6 +7,8 @@ from adapters.weworkremotely import WeWorkRemotelyAdapter
 from adapters.remotive import RemotiveAdapter
 from adapters.themuse import TheMuseAdapter
 from adapters.himalayas import HimalayasAdapter
+from adapters.workbeam import WorkbeamAdapter
+from adapters.jobsbase import JobsbaseAdapter
 from export.formats import to_csv, to_json
 from utils.network import Rotator
 
@@ -16,6 +18,8 @@ ADAPTERS = {
     "remotive": RemotiveAdapter,
     "themuse": TheMuseAdapter,
     "himalayas": HimalayasAdapter,
+    "workbeam": WorkbeamAdapter,
+    "jobsbase": JobsbaseAdapter,
 }
 
 

@@ -232,9 +232,9 @@ LANDING_HTML = """<!DOCTYPE html>
     <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
       <div class="text-xl font-bold"><span class="text-indigo-400">Job</span>Stream</div>
       <div class="flex gap-4 text-sm">
-        <a href="https://tiny-gecko-29.loca.lt/#features" class="hover:text-indigo-300 transition">Features</a>
-        <a href="https://tiny-gecko-29.loca.lt/#pricing" class="hover:text-indigo-300 transition">Pricing</a>
-        <a href="https://tiny-gecko-29.loca.lt/docs" class="hover:text-indigo-300 transition">API</a>
+        <a href="/#features" class="hover:text-indigo-300 transition">Features</a>
+        <a href="/#pricing" class="hover:text-indigo-300 transition">Pricing</a>
+        <a href="/docs" class="hover:text-indigo-300 transition">API</a>
       </div>
     </div>
     <div class="max-w-5xl mx-auto px-6 py-24 text-center">
@@ -242,11 +242,11 @@ LANDING_HTML = """<!DOCTYPE html>
         Live Job Listings<br><span class="gradient-text">at Your Fingertips</span>
       </h1>
       <p class="text-xl text-slate-300 max-w-2xl mx-auto mb-10">
-        One API. 400+ fresh jobs daily from 5 sources. Build job boards, power AI agents, or feed your analytics.
+         One API. 400+ fresh jobs daily from 8 sources. Build job boards, power AI agents, or feed your analytics.
       </p>
       <div class="flex gap-4 justify-center flex-wrap">
-        <a href="https://tiny-gecko-29.loca.lt/#pricing" class="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-3 rounded-xl font-semibold transition shadow-lg shadow-indigo-500/25">Get Started</a>
-        <a href="https://tiny-gecko-29.loca.lt/docs" class="border border-slate-400 hover:border-white px-8 py-3 rounded-xl font-semibold transition">API Docs</a>
+        <a href="/#pricing" class="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-3 rounded-xl font-semibold transition shadow-lg shadow-indigo-500/25">Get Started</a>
+        <a href="/docs" class="border border-slate-400 hover:border-white px-8 py-3 rounded-xl font-semibold transition">API Docs</a>
       </div>
     </div>
   </div>
@@ -257,8 +257,8 @@ LANDING_HTML = """<!DOCTYPE html>
     <div class="grid md:grid-cols-3 gap-8">
       <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
         <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-5 text-2xl">&#x1F4E1;</div>
-        <h3 class="text-lg font-bold mb-2">5 Sources & Growing</h3>
-        <p class="text-slate-500 text-sm">RemoteOK, WeWorkRemotely, Remotive, The Muse, Himalayas — aggregated and deduped.</p>
+        <h3 class="text-lg font-bold mb-2">8 Sources & Growing</h3>
+        <p class="text-slate-500 text-sm">RemoteOK, WeWorkRemotely, Remotive, The Muse, Himalayas, Workbeam, Career Nest, JobsBase — aggregated and deduped.</p>
       </div>
       <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
         <div class="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center mb-5 text-2xl">&#x26A1;</div>
@@ -360,7 +360,7 @@ LANDING_HTML = """<!DOCTYPE html>
 
   <footer class="bg-slate-900 text-slate-400 py-12 text-center text-sm">
     <p class="font-bold text-white mb-2"><span class="text-indigo-400">Job</span>Stream API</p>
-    <p>Built with data from RemoteOK, WeWorkRemotely, Remotive, The Muse, Himalayas</p>
+     <p>Built with data from RemoteOK, WeWorkRemotely, Remotive, The Muse, Himalayas, Workbeam, Career Nest, JobsBase</p>
     <p class="mt-2">&copy; 2026 JobStream. All rights reserved.</p>
   </footer>
 
@@ -484,7 +484,7 @@ DOCS_HTML = """<!DOCTYPE html>
         <thead><tr class="text-slate-400 border-b border-slate-700"><th class="text-left pb-2">Param</th><th class="text-left pb-2">Type</th><th class="text-left pb-2">Description</th></tr></thead>
         <tbody>
           <tr class="border-b border-slate-700"><td class="py-2">q</td><td>string</td><td>Search keyword in title</td></tr>
-          <tr class="border-b border-slate-700"><td class="py-2">source</td><td>string</td><td>Filter by source (remoteok, weworkremotely, remotive, themuse, himalayas)</td></tr>
+          <tr class="border-b border-slate-700"><td class="py-2">source</td><td>string</td><td>Filter by source (remoteok, weworkremotely, remotive, themuse, himalayas, workbeam, careernest, jobsbase)</td></tr>
           <tr><td class="py-2">limit</td><td>int</td><td>Max results (default 100)</td></tr>
         </tbody>
       </table>
