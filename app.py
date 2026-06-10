@@ -232,9 +232,9 @@ LANDING_HTML = """<!DOCTYPE html>
     <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
       <div class="text-xl font-bold"><span class="text-indigo-400">Job</span>Stream</div>
       <div class="flex gap-4 text-sm">
-        <a href="#features" class="hover:text-indigo-300 transition">Features</a>
-        <a href="#pricing" class="hover:text-indigo-300 transition">Pricing</a>
-        <a href="/docs" class="hover:text-indigo-300 transition">API</a>
+        <a href="https://tiny-gecko-29.loca.lt/#features" class="hover:text-indigo-300 transition">Features</a>
+        <a href="https://tiny-gecko-29.loca.lt/#pricing" class="hover:text-indigo-300 transition">Pricing</a>
+        <a href="https://tiny-gecko-29.loca.lt/docs" class="hover:text-indigo-300 transition">API</a>
       </div>
     </div>
     <div class="max-w-5xl mx-auto px-6 py-24 text-center">
@@ -245,8 +245,8 @@ LANDING_HTML = """<!DOCTYPE html>
         One API. 400+ fresh jobs daily from 5 sources. Build job boards, power AI agents, or feed your analytics.
       </p>
       <div class="flex gap-4 justify-center flex-wrap">
-        <a href="#pricing" class="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-3 rounded-xl font-semibold transition shadow-lg shadow-indigo-500/25">Get Started</a>
-        <a href="/docs" class="border border-slate-400 hover:border-white px-8 py-3 rounded-xl font-semibold transition">API Docs</a>
+        <a href="https://tiny-gecko-29.loca.lt/#pricing" class="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-3 rounded-xl font-semibold transition shadow-lg shadow-indigo-500/25">Get Started</a>
+        <a href="https://tiny-gecko-29.loca.lt/docs" class="border border-slate-400 hover:border-white px-8 py-3 rounded-xl font-semibold transition">API Docs</a>
       </div>
     </div>
   </div>
